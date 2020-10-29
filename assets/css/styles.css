@@ -157,6 +157,7 @@ a:focus {
   -moz-transition: none;
   -ms-transition: none;
   -o-transition: none;
+  background: #ffffff;
 }
 
 .header.header-scrolled {
@@ -176,23 +177,23 @@ a:focus {
 }
 
 .header.header-scrolled .logo .logo-icon-wrapper {
-  background: #0C91F0;
-  width: 40px;
-  height: 40px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  text-align: center;
+  /*background: #0C91F0;*/
+  width: 113px;
+  height: 30px;
+  /*-webkit-border-radius: 50%;*/
+  /*-moz-border-radius: 50%;*/
+  /*-ms-border-radius: 50%;*/
+  /*-o-border-radius: 50%;*/
+  /*border-radius: 50%;*/
+  /*-moz-background-clip: padding;*/
+  /*-webkit-background-clip: padding-box;*/
+  /*background-clip: padding-box;*/
+  /*text-align: center;*/
 }
 
 .header.header-scrolled .logo .logo-icon {
-  width: 20px;
-  height: 20px;
+  width: 113px;
+  height: 30px;
   margin-right: 0;
 }
 
@@ -237,7 +238,7 @@ a:focus {
 }
 
 .header .logo .logo-icon {
-  width: 30px;
+  width: 113px;
   height: 30px;
 }
 
@@ -294,18 +295,19 @@ a:focus {
 }
 
 .main-nav .nav .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.65);
+  /*color: rgba(255, 255, 255, 0.65);*/
+  color: #152A3E;
   font-weight: 700;
 }
 
 .main-nav .nav .nav-item .nav-link.active {
   position: relative;
   background: none;
-  color: #fff;
+  color: #152A3E;
 }
 
 .main-nav .nav .nav-item .nav-link:hover {
-  color: #fff;
+  color: #0C91F0;
   background: none;
 }
 
@@ -386,7 +388,7 @@ a:focus {
 }
 
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url("../images/hero-1.jpg");
+  background-image: url("../images/hero-4.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -973,7 +975,7 @@ a:focus {
     left: 0;
     top: 60px;
     position: absolute;
-    background: rgba(49, 52, 58, 0.9);
+    background: rgba(21, 42, 62, 0.9);
     z-index: 40;
   }
   .header.header-scrolled .main-nav .nav .nav-link.active {
@@ -1045,7 +1047,7 @@ a:focus {
     top: 130px;
   }
   .hero-carousel .carousel-inner .item-content-inner {
-    max-width: 300px;
+    /*max-width: 300px;*/
     padding-top: 120px;
   }
 }
@@ -1064,7 +1066,7 @@ a:focus {
     top: 130px;
   }
   .hero-carousel .carousel-inner .item-content-inner {
-    max-width: 500px;
+    /*max-width: 500px;*/
   }
 }
 
