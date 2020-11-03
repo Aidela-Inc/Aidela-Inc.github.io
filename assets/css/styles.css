@@ -65,6 +65,16 @@ a:focus {
   padding: 10px 30px;
 }
 
+.fa-icon {
+  color: #0C91F0;
+  font-size: 80px;
+}
+
+.fa-icon-med {
+  color: #0C91F0;
+  font-size: 50px;
+}
+
 .btn-primary {
   background: #0C91F0;
   border: 1px solid #0C91F0;
@@ -388,7 +398,7 @@ a:focus {
 }
 
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url("../images/hero-4.jpg");
+  background-image: url("../images/banner.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
