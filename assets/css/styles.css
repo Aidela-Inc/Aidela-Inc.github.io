@@ -360,7 +360,7 @@ a:focus {
 
 /* ======= Hero Section ======= */
 .hero-section {
-  min-height: 560px;
+  min-height: 530px;
   background: #152A3E;
   position: relative;
 }
@@ -397,7 +397,7 @@ a:focus {
 }
 
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url("../images/banner.png");
+  background-image: url("../images/hero-2.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1024,13 +1024,13 @@ a:focus {
     margin-bottom: 0;
   }
   .hero-carousel {
-    height: 660px;
+    height: 530px;
   }
   .hero-section .carousel-inner {
-    height: 660px;
+    height: 530px;
   }
   .hero-carousel .carousel-inner .item {
-    height: 660px;
+    height: 530px;
   }
   .testimonials-section .item .profile-image {
     width: 60px;
