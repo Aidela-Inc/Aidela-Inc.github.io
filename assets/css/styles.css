@@ -391,7 +391,7 @@ a:focus {
 }
 
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url("../images/banner.png");
+  background-image: url("../images/map.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -399,7 +399,7 @@ a:focus {
 }
 
 .hero-carousel .carousel-inner .item-2 {
-  background-image: url("../images/hero-2.jpg");
+  background-image: url("../images/map.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -407,7 +407,7 @@ a:focus {
 }
 
 .hero-carousel .carousel-inner .item-3 {
-  background-image: url("../images/hero-3.jpg");
+  background-image: url("../images/map.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
