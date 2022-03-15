@@ -4,6 +4,7 @@ body {
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #152A3E;
 }
 
 p {
@@ -101,11 +102,11 @@ a:focus {
   -moz-transition: none;
   -ms-transition: none;
   -o-transition: none;
-  background: #ffffff;
+  background: #152A3E;
 }
 
 .header.header-scrolled {
-  background: #fff;
+  background: #152A3E;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
@@ -132,7 +133,7 @@ a:focus {
 }
 
 .header.header-scrolled .main-nav .nav .nav-link {
-  color: #152A3E;
+  color: #ffffff;
 }
 
 .header.header-scrolled .main-nav .nav .nav-link:hover {
@@ -140,7 +141,7 @@ a:focus {
 }
 
 .header.header-scrolled .main-nav .nav .nav-link.active {
-  color: #152A3E;
+  color: #0C91F0;
   border-bottom: 4px solid #0C91F0;
 }
 
@@ -229,8 +230,7 @@ a:focus {
 }
 
 .main-nav .nav .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.65);
-  color: #152A3E;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -284,6 +284,7 @@ a:focus {
 
 .about-section {
   padding-top: 90px;
+  color: #ffffff;
 }
 
 .about-section .section-title {
@@ -293,7 +294,7 @@ a:focus {
 }
 
 .about-section .intro {
-  color: #616670;
+  color: #ffffff;
   font-size: 16px;
   max-width: 760px;
   margin: 0 auto;
@@ -326,7 +327,7 @@ a:focus {
 }
 
 .about-section .items-wrapper .item-desc {
-  color: #616670;
+  color: #ffffff;
 }
 
 .technologies {
@@ -397,13 +398,14 @@ a:focus {
 .testimonials-section {
   /*background: #0C91F0 url("../images/map.png") no-repeat center center;*/
 
-  background: #f5f5f5;
+  background: #0C91F0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   padding-top: 90px;
   padding-bottom: 90px;
+  color: #ffffff;
 }
 
 .testimonials-section .section-title {
@@ -411,7 +413,7 @@ a:focus {
   margin-bottom: 30px;
   font-size: 36px;
   font-weight: 300;
-  color: #152A3E;
+  color: #ffffff;
 }
 
 .testimonials-section .item {
@@ -497,7 +499,8 @@ a:focus {
 .team-section {
   padding-top: 90px;
   padding-bottom: 90px;
-  background: #f5f5f5;
+  background: #152A3E;
+  color: #ffffff
 }
 
 .team-section .section-title {
@@ -508,7 +511,7 @@ a:focus {
 }
 
 .team-section .intro {
-  color: #a2a6af;
+  color: #ffffff;
   font-size: 16px;
   max-width: 760px;
   margin: 0 auto;
@@ -533,7 +536,7 @@ a:focus {
 
 .team-section .item-inner {
   padding: 30px;
-  background: #fff;
+  background: #cccccc;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
