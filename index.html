@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"
-      xmlns:og="http://ogp.me/ns#">
+<html lang="en">
 <head>
     <title>Aidela</title>
     <meta charset="utf-8">
@@ -8,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
           content="AIDELA’s founders have over 30 years of experience innovating, integrating, and simplifying products and services from concepts to operations. Our commercial and federal industry partners know they can depend on us to get the job done – regardless of how large or complex the task.">
-
     <meta property="og:title" content="Aidela, Inc - Design, Build, Lead, Together"/>
     <meta property="og:url" content="https://aidela.io"/>
     <meta property="og:description"
@@ -17,440 +15,587 @@
     <meta property="og:image:url" content="https://aidela.io/assets/images/banner.png"/>
     <meta property="og:image:height" content="630">
     <meta property="og:image:width" content="1200">
-
     <meta name="twitter:title" content="Aidela, Inc - Design, Build, Lead, Together">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="http://aidela.io/assets/images/banner.png"/>
+    <meta name="twitter:image" content="https://aidela.io/assets/images/banner.png"/>
     <meta name="twitter:description"
           content="AIDELA’s founders have over 30 years of experience innovating, integrating, and simplifying products and services from concepts to operations."/>
-
     <link rel="shortcut icon" href="favicon.ico">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
           rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
 
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* Carousel base class */
+        .carousel {
+            margin-bottom: 4rem;
+        }
+
+        /* Since positioning the image, we need to help out the caption */
+        .carousel-caption {
+            bottom: 3rem;
+            z-index: 10;
+        }
+
+        /* Declare heights because of positioning of img element */
+        .carousel-item {
+            height: 30rem;
+        }
+
+        @media (min-width: 40em) {
+            /* Bump up size of carousel content */
+            .carousel-caption p {
+                margin-bottom: 1.25rem;
+                font-size: 1.25rem;
+                line-height: 1.4;
+            }
+
+            .featurette-heading {
+                font-size: 50px;
+            }
+        }
+
+        a:hover {
+                text-decoration: none !important;
+        }
+    </style>
 </head>
-
 <body>
-<header id="header" class="header">
+<main>
     <div class="container">
-        <h1 class="logo">
-            <a class="scrollto" href="#vbanner">
-                <span class="logo-icon-wrapper"><img class="logo-icon" src="assets/images/logo-white.png"
-                                                     alt="icon"></span></a>
-        </h1>
-        <nav class="main-nav navbar-expand-md float-right navbar-inverse" role="navigation">
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <div id="navbar-collapse" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item"><a class="active nav-link scrollto" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#careers">Careers</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#benefits">Benefits</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#team">Team</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link btn-primary" style="margin-top: 0px;padding-top: 15px;padding-bottom: 15px;" href="https://recruiting.paylocity.com/recruiting/jobs/All/4acc8e80-7658-4143-bc74-702ccb0612e9/AIDELA-INC?location=All%20Locations&department=All%20Departments">Openings</a></li>
-                </ul>
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
+            <h1 class="logo">
+                <a class="scrollto">
+                                <span class="logo-icon-wrapper"><img class="logo-icon" width="145" height="40"
+                                                                     src="assets/images/logo-white.png"
+                                                                     alt="icon"></span></a>
+            </h1>
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-right mb-md-0 text-white w-75 align-content-end">
+                <li><a href="#" class="nav-link px-2 link-secondary text-white">Home</a></li>
+                <li><a href="#about" class="nav-link px-2 ">About</a></li>
+                <li><a href="#careers" class="nav-link px-2 ">Careers</a></li>
+                <li><a href="#benefits" class="nav-link px-2 ">Benefits</a></li>
+                <li><a href="#team" class="nav-link px-2 ">Team</a></li>
+                <li><a href="#contact" class="nav-link px-2 ">Contact</a></li>
+            </ul>
+            <div class="col-md-3 text-end">
             </div>
-        </nav>
+        </header>
     </div>
-</header>
-
-<div id="vbanner" align="center" class="embed-responsive embed-responsive-16by9" style="top: 60px;">
-    <video autoplay muted playsinline class="embed-responsive-item">
-        <source src="assets/video/banner.mp4" type="video/mp4">
-    </video>
-</div>
-
-<div id="about" class="about-section">
-    <div class="container text-center">
-        <h2 class="section-title">Why Choose Us?</h2>
-        <p class="intro">Every solution we provide is rooted in the belief that we are at our best when we are working
-            together to help others achieve their goals.</p>
-
-        <div class="items-wrapper row">
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="fal fa-laptop-code fa-icon" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">Software Engineering</h3>
-                    <div class="item-desc mb-3">
-                        Custom cloud analytic, web and mobile application development leveraging open source, industry
-                        best practices, covering all major languages and frameworks. AWS Web Service integration,
-                        DevSecOps, and agile methods to mitigate risk and meet all mission critical requirements.
+    <!--    <header id="header" class="header">-->
+    <!--        <div class="container">-->
+    <!--            <h1 class="logo">-->
+    <!--                <a class="scrollto">-->
+    <!--                <span class="logo-icon-wrapper"><img class="logo-icon" src="assets/images/logo-white.png"-->
+    <!--                                                     alt="icon"></span></a>-->
+    <!--            </h1>-->
+    <!--            <nav class="main-nav navbar-expand-md float-right navbar-inverse" role="navigation">-->
+    <!--                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">-->
+    <!--                    <span class="sr-only">Toggle navigation</span>-->
+    <!--                    <span class="icon-bar"></span>-->
+    <!--                    <span class="icon-bar"></span>-->
+    <!--                    <span class="icon-bar"></span>-->
+    <!--                </button>-->
+    <!--                <div id="navbar-collapse" class="navbar-collapse collapse">-->
+    <!--                    <ul class="nav navbar-nav">-->
+    <!--                        <li class="nav-item"><a class="active nav-link scrollto" href="#about">About</a></li>-->
+    <!--                        <li class="nav-item"><a class="nav-link scrollto" href="#careers">Careers</a></li>-->
+    <!--                        <li class="nav-item"><a class="nav-link scrollto" href="#benefits">Benefits</a></li>-->
+    <!--                        <li class="nav-item"><a class="nav-link scrollto" href="#team">Team</a></li>-->
+    <!--                        <li class="nav-item"><a class="nav-link scrollto" href="#contact">Contact</a></li>-->
+    <!--                        <li class="nav-item"><a class="nav-link btn-primary"-->
+    <!--                                                style="margin-top: 0;padding-top: 15px;padding-bottom: 15px;"-->
+    <!--                                                href="https://recruiting.paylocity.com/recruiting/jobs/All/4acc8e80-7658-4143-bc74-702ccb0612e9/AIDELA-INC?location=All%20Locations&department=All%20Departments">Openings</a>-->
+    <!--                        </li>-->
+    <!--                    </ul>-->
+    <!--                </div>-->
+    <!--            </nav>-->
+    <!--        </div>-->
+    <!--    </header>-->
+    <div id="topCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <a data-bs-target="#topCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+               aria-label="Slide 1"
+               href="https://recruiting.paylocity.com/recruiting/jobs/All/4acc8e80-7658-4143-bc74-702ccb0612e9/AIDELA-INC?location=All%20Locations&department=All%20Departments"></a>
+            <a data-bs-target="#topCarousel" data-bs-slide-to="1" aria-label="Junior Dev Hot Job"></a>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="carousel-caption text-center justify-content-center">
+                        <h1>Health and Wellness Incentive</h1>
+                        <p>At AIDELA, the health and well-being of our employees is our top priority. When we are at our
+                            best, the products and capabilities we provide are the best! From now until December 31,
+                            2022, we will cover one year (up to $2,000) of wellness costs for new employees starting
+                            within one of our designated “Hot Jobs”. The wellness incentive can be used to cover monthly
+                            memberships at the gym, JiuJitsu, CrossFit, Kettlebells programs, or other specialized
+                            wellness classes. Restrictions apply, view our openings and contact us for details!</p>
+                        <p><a class="btn btn-light mt-4 btn-lg btn-block"
+                           href="https://recruiting.paylocity.com/recruiting/jobs/All/4acc8e80-7658-4143-bc74-702ccb0612e9/AIDELA-INC?location=All%20Locations&department=All%20Departments">View
+                            Current Openings</a></p>
                     </div>
                 </div>
             </div>
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="fal fa-layer-group fa-icon" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">System Engineering</h3>
-                    <div class="item-desc mb-3">
-                        Capture & analyze requirements, design new concepts, develop product strategy, streamline and
-                        securely automate manual business process, prototype, integrate, and document SOPs ensuring
-                        solutions are manageable and repeatable.
-                    </div>
-                </div>
-            </div>
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="fal fa-chart-network fa-icon" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">Data Science</h3>
-                    <div class="item-desc mb-3">
-                        Transform overwhelming amounts of data into actionable intelligence. Utilize AI and Machine
-                        Learning to mine, model, analyze and uncover complex relationships that impact mission
-                        objectives.
-                    </div>
-                </div>
-            </div>
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="fal fa-book-open fa-icon" aria-hidden="true"></i>
-                    </div><!--//figure-holder-->
-                    <h3 class="item-title">Open Source</h3>
-                    <div class="item-desc mb-3">
-                        Leverage open source technology to encourage collaboration and innovate faster than ever before.
-                        Support the kind of creativity and interoperability needed to maximize options while respecting
-                        budget.
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="carousel-caption text-center justify-content-center">
+                        <h1>Junior-to-Mid Software Engineer (HOT JOB)</h1>
+                        <p>We’re looking for a Junior to Mid-Level Software Engineer to assist building a Kubernetes
+                            Platform as a Service analytic and development platform. Research, implement and mentor the
+                            team on cloud native technologies in Kubernetes for building, monitoring and scaling the
+                            system. Build micro-services implementing system business logic.</p>
+                        <p><a class="btn btn-light mt-4 btn-lg btn-block"
+                              href="https://recruiting.paylocity.com/Recruiting/Jobs/Details/1181566">More Info</a>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#topCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#topCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-</div>
-<div id="careers" class="testimonials-section">
-    <div class="container text-center">
-        <h2 class="section-title">Careers</h2>
-        <p class="intro">
-            We strongly support the achievement of personal career goals and a healthy work-life balance by encouraging
-            conference attendance, self study, open source contributions, or prototype development.
-        </p>
-
-        <p class="intro">
-            Like you, we need our downtime with family and friends, personal hobbies and endeavors. Time away from work
-            allows for personal enrichment and renewal. We encourage time away from work for personal enrichment and
-            recharge. We know that a healthy mind is a sharp mind.
-        </p>
-        <p class="intro">
-            Lastly, giving back to our communities is a core part of who we are. We volunteer both our time and funds to
-            local charities. At AIDELA, we know that each person can truly make a difference in the lives of others.
-        </p>
-        <a class="btn btn-light mt-4 btn-lg btn-block" href="https://recruiting.paylocity.com/recruiting/jobs/All/4acc8e80-7658-4143-bc74-702ccb0612e9/AIDELA-INC?location=All%20Locations&department=All%20Departments">View Current Openings</a>
-
-        <p></p>
-
-        <p class="intro">
-          At AIDELA, the health and well-being of our employees is our top priority.  When we are at our best, the products
-          and capabilities we provide are the best! From now until December 31, 2022, we will cover one year (up to $2,000)
-          of wellness costs for new employees starting within one of our designated “Hot Jobs”. The wellness incentive can 
-          be used to cover monthly memberships at the gym, JiuJitsu, CrossFit, Kettlebells programs, or other specialized 
-          wellness classes. Restrictions apply, view our openings and contact us for details!
-        </p>
-    </div>
-</div>
-
-<div id="benefits" class="about-section">
-    <div class="container text-center">
-        <h2 class="section-title">Benefits</h2>
-
-        <div class="items-wrapper row">
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="far fa-chart-line fa-icon-med" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">401K</h3>
-                    <div class="item-desc mb-3">
-                        Up to 10% company gift
-                    </div>
-                </div>
-            </div>
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="far fa-heart fa-icon-med" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">Healthcare</h3>
-                    <div class="item-desc mb-3">
-                        100% company covered medical, dental and vision
-                    </div>
-                </div>
-            </div>
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="far fa-user-friends fa-icon-med" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">FSA/Dependent Care</h3>
-                    <div class="item-desc mb-3">
-                        Available when enrolled in a healthcare plan
-                    </div>
-                </div>
-            </div>
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="far fa-heart-rate fa-icon-med" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">STD/LTD, AD&D & Life</h3>
-                    <div class="item-desc mb-3">
-                        100% company covered
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="items-wrapper row">
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="far fa-thumbs-up fa-icon-med" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">Paid-time Off</h3>
-                    <div class="item-desc mb-3">
-                        Up to 5 weeks paid time off and 11 paid federal holidays
-                    </div>
-                </div>
-            </div>
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="far fa-gift fa-icon-med" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">Birthday Gift</h3>
-                    <div class="item-desc mb-3">
-                        Enjoy an extra 8 hours of paid-time off for your birthday
-                    </div>
-                </div>
-            </div>
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="far fa-graduation-cap fa-icon-med" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">Continued Learning</h3>
-                    <div class="item-desc mb-3">
-                        Company reimbursement for accredited courses or industry certifications
-                    </div>
-                </div>
-            </div>
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="far fa-retweet-alt fa-icon-med" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">Continual Referral Bonus</h3>
-                    <div class="item-desc mb-3">
-                        Continual referral bonuses for as long as you both stay with us
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="items-wrapper row">
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="far fa-money-check-alt fa-icon-med" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">Performance Bonuses</h3>
-                    <div class="item-desc mb-3">
-                        We acknowledge hard work and dedication with an annual thank-you bonus
-                    </div>
-                </div>
-            </div>
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="far fa-phone-laptop fa-icon-med" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">Technology Credits</h3>
-                    <div class="item-desc mb-3">
-                        Help to upgrade your tech each year
-                    </div>
-                </div>
-            </div>
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="far fa-tshirt fa-icon-med" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">Company Swag</h3>
-                    <div class="item-desc mb-3">
-                        Strut your stuff in name brands with our company logo
-                    </div>
-                </div>
-            </div>
-            <div class="item col-md-3 col-12">
-                <div class="item-inner">
-                    <div class="figure-holder">
-                        <i class="far fa-calendar-alt fa-icon-med" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="item-title">Events</h3>
-                    <div class="item-desc mb-3">
-                        Corporate happy hours and off-sites for you and your family
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="team-section" id="team">
-    <div class="container text-center">
-        <h2 class="section-title">Our Leadership Team</h2>
-        <div class="story">
-            <p>AIDELA’s founders have over 30 years of experience innovating, integrating, and simplifying products and
-                services from concepts to operations. Our commercial and federal industry partners know they can depend
-                on us to get the job done – regardless of how large or complex the task. </p>
-        </div>
-        <div class="members-wrapper row">
-            <div class="item col-md-6 col-12">
-                <div class="item-inner">
-                    <div class="profile mb-2">
-                        <img class="profile-image" src="assets/images/christine.png" alt="Christine Mallick"/>
-                    </div>
-
-                    <div class="member-content">
-                        <h3 class="member-name">Christine Mallick</h3>
-                        <div class="member-title">Chief Executive Officer</div>
-                        <ul class="social list-inline">
-                            <li class="list-inline-item"><a href="https://linkedin.com/in/christine-mallick-272b9744"
-                                                            target="_blank"><i class="fab fa-linkedin"></i></a></li>
-
-                        </ul>
-                        <div class="member-desc">
-                            <p>
-                                Christine is the founder, owner, and CEO of AIDELA, Inc., a principal engineer, system
-                                architect, and solution strategist. She has over 20 years of experience in
-                                Cloud Architecture, Data Transformation and Curation, Data Management, Program and
-                                Project Management, and Information Security.
-                            </p>
-                            <p>
-                                Ms. Mallick takes pride in cultivating diverse, multidisciplinary teams focused on
-                                innovation,
-                                efficiency and simplicity. Ms. Mallick graduated from the University of Maryland,
-                                Baltimore County with a Bachelors in Information Systems Management. She received her
-                                Masters in Information and Telecommunication Systems concentrating in Information
-                                Security from Johns Hopkins University.
-                            </p>
+    <div id="about" class="about-section">
+        <div class="container text-center">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <p class="intro">Every solution we provide is rooted in the belief that we are at our best when we are
+                working
+                together to help others achieve their goals.</p>
+            <div class="items-wrapper row">
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="fal fa-laptop-code fa-icon" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">Software Engineering</h3>
+                        <div class="item-desc mb-3">
+                            Custom cloud analytic, web and mobile application development leveraging open source,
+                            industry
+                            best practices, covering all major languages and frameworks. AWS Web Service integration,
+                            DevSecOps, and agile methods to mitigate risk and meet all mission critical requirements.
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="item col-md-6 col-12">
-                <div class="item-inner">
-                    <div class="profile mb-2">
-                        <img class="profile-image" src="assets/images/rich.png" alt="Rich Giomundo"/>
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="fal fa-layer-group fa-icon" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">System Engineering</h3>
+                        <div class="item-desc mb-3">
+                            Capture & analyze requirements, design new concepts, develop product strategy, streamline
+                            and
+                            securely automate manual business process, prototype, integrate, and document SOPs ensuring
+                            solutions are manageable and repeatable.
+                        </div>
                     </div>
-
-                    <div class="member-content">
-                        <h3 class="member-name">Rich Giomundo</h3>
-                        <div class="member-title">Chief Technology Officer</div>
-                        <ul class="social list-inline">
-                            <!--                            <li class="list-inline-item"><a class="twitter" href="http://twitter.com/richgiomundo"-->
-                            <!--                                                            target="_blank"><i class="fab fa-twitter"></i></a></li>-->
-                            <li class="list-inline-item"><a href="https://linkedin.com/in/richardgiomundo"
-                                                            target="_blank"><i
-                                    class="fab fa-linkedin"></i></a></li>
-                            <!--                            <li class="list-inline-item"><a class="github" href="https://github.com/richgiomundo"-->
-                            <!--                                                            target="_blank"><i class="fab fa-github"></i></a></li>-->
-
-
-                        </ul>
-                        <div class="member-desc">
-                            <p>
-                                Richard Giomundo is co-founder and partner of AIDELA, Inc. Mr. Giomundo has broad
-                                technical knowledge and over 20 years of experience in Software Architecture Design,
-                                Enterprise Application Development and Technical Leadership.
-                            </p>
-                            <p>
-                                Mr. Giomundo graduated with a Bachelors in Computer Science and Mathematics from the
-                                University at Buffalo; he went on to receive a Masters in Computer Science and Computer
-                                Security.
-                            </p>
+                </div>
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="fal fa-chart-network fa-icon" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">Data Science</h3>
+                        <div class="item-desc mb-3">
+                            Transform overwhelming amounts of data into actionable intelligence. Utilize AI and Machine
+                            Learning to mine, model, analyze and uncover complex relationships that impact mission
+                            objectives.
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="fal fa-book-open fa-icon" aria-hidden="true"></i>
+                        </div><!--//figure-holder-->
+                        <h3 class="item-title">Open Source</h3>
+                        <div class="item-desc mb-3">
+                            Leverage open source technology to encourage collaboration and innovate faster than ever
+                            before.
+                            Support the kind of creativity and interoperability needed to maximize options while
+                            respecting
+                            budget.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<footer class="footer text-center" id="contact">
-    <div class="container">
-        <ul class="technologies list-inline">
-            <li class="list-inline-item">
-                <a class="fa-icon-med" href="mailto:info@aidela.io" title="Drop us an email"><i
-                        class="fa fa-envelope"></i></a>
-            </li>
-            <li class="list-inline-item">
-                <a class="fa-icon-med" href="https://www.linkedin.com/company/aidelaworks" target="_blank"
-                   title="Find us on LinkedIn"><i class="fab fa-linkedin"></i></a>
-            </li>
-            <li class="list-inline-item">
-                <a class="twitter fa-icon-med" href="https://www.twitter.com/aidelaworks" target="_blank"
-                   title="Find us on Twitter"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li class="list-inline-item">
-                <a class="github fa-icon-med" href="https://www.facebook.com/aidelaworks" target="_blank"
-                   title="Find us on Facebook"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li class="list-inline-item">
-                <a class="github fa-icon-med" href="tel:443-574-5273" target="_blank" title="Give us a call"><i
-                        class="fa fa-mobile"></i></a>
-            </li>
-
-        </ul>
-        <div style="padding-bottom: 50px;">
-            <img src="assets/images/wbe.png" alt="WBENC"/>
-            <img src="assets/images/wosb.png" alt="SBA WOSB Certified"/>
+    <div id="careers" class="testimonials-section">
+        <div class="container text-center">
+            <h2 class="section-title">Careers</h2>
+            <p class="intro">
+                We strongly support the achievement of personal career goals and a healthy work-life balance by
+                encouraging
+                conference attendance, self study, open source contributions, or prototype development.
+            </p>
+            <p class="intro">
+                Like you, we need our downtime with family and friends, personal hobbies and endeavors. Time away from
+                work
+                allows for personal enrichment and renewal. We encourage time away from work for personal enrichment and
+                recharge. We know that a healthy mind is a sharp mind.
+            </p>
+            <p class="intro">
+                Lastly, giving back to our communities is a core part of who we are. We volunteer both our time and
+                funds to
+                local charities. At AIDELA, we know that each person can truly make a difference in the lives of others.
+            </p>
+            <a class="btn btn-light mt-4 btn-lg btn-block"
+               href="https://recruiting.paylocity.com/recruiting/jobs/All/4acc8e80-7658-4143-bc74-702ccb0612e9/AIDELA-INC?location=All%20Locations&department=All%20Departments">View
+                Current Openings</a>
         </div>
-        <div>
-            <small>
-                <ul class="list-inline">
-                    <li class="list-inline-item">NAICS CODES:</li>
-                    <li class="list-inline-item" title="Custom Computer Programming Services">541511</li>
-                    <li class="list-inline-item" title="Computer Systems Design Services">541512</li>
-                    <li class="list-inline-item" title="Engineering Services">541330</li>
-                    <li class="list-inline-item" title="Other Computer Related Services">541519</li>
-                    <li class="list-inline-item" title="Admin. Management Gen. Management Consulting">541611</li>
-                    <li class="list-inline-item" title="Research and Development in the Physical, Engineering, and Life Sciences">541715</li>
-                    <li class="list-inline-item" title="Research and Development in the Social Sciences and Humanities">541720</li>
-                    <li class="list-inline-item" title="Professional and Management Development Training">611430</li>
-                </ul>
-            </small>
-        </div>
-        <small class="copyright">© 2022 AIDELA, Inc. All Rights Reserved.</small>
     </div>
-</footer>
-
-<script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
+    <div id="benefits" class="about-section">
+        <div class="container text-center">
+            <h2 class="section-title">Benefits</h2>
+            <div class="items-wrapper row">
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="far fa-chart-line fa-icon-med" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">401K</h3>
+                        <div class="item-desc mb-3">
+                            Up to 10% company gift
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="far fa-heart fa-icon-med" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">Healthcare</h3>
+                        <div class="item-desc mb-3">
+                            100% company covered medical, dental and vision
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="far fa-user-friends fa-icon-med" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">FSA/Dependent Care</h3>
+                        <div class="item-desc mb-3">
+                            Available when enrolled in a healthcare plan
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="far fa-heart-rate fa-icon-med" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">STD/LTD, AD&D & Life</h3>
+                        <div class="item-desc mb-3">
+                            100% company covered
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="items-wrapper row">
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="far fa-thumbs-up fa-icon-med" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">Paid-time Off</h3>
+                        <div class="item-desc mb-3">
+                            Up to 5 weeks paid time off and 11 paid federal holidays
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="far fa-gift fa-icon-med" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">Birthday Gift</h3>
+                        <div class="item-desc mb-3">
+                            Enjoy an extra 8 hours of paid-time off for your birthday
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="far fa-graduation-cap fa-icon-med" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">Continued Learning</h3>
+                        <div class="item-desc mb-3">
+                            Company reimbursement for accredited courses or industry certifications
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="far fa-retweet-alt fa-icon-med" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">Continual Referral Bonus</h3>
+                        <div class="item-desc mb-3">
+                            Continual referral bonuses for as long as you both stay with us
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="items-wrapper row">
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="far fa-money-check-alt fa-icon-med" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">Performance Bonuses</h3>
+                        <div class="item-desc mb-3">
+                            We acknowledge hard work and dedication with an annual thank-you bonus
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="far fa-phone-laptop fa-icon-med" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">Technology Credits</h3>
+                        <div class="item-desc mb-3">
+                            Help to upgrade your tech each year
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="far fa-tshirt fa-icon-med" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">Company Swag</h3>
+                        <div class="item-desc mb-3">
+                            Strut your stuff in name brands with our company logo
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-12">
+                    <div class="item-inner">
+                        <div class="figure-holder">
+                            <i class="far fa-calendar-alt fa-icon-med" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="item-title">Events</h3>
+                        <div class="item-desc mb-3">
+                            Corporate happy hours and off-sites for you and your family
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team-section" id="team">
+        <div class="container text-center">
+            <h2 class="section-title">Our Leadership Team</h2>
+            <div class="story">
+                <p>AIDELA’s founders have over 30 years of experience innovating, integrating, and simplifying products
+                    and
+                    services from concepts to operations. Our commercial and federal industry partners know they can
+                    depend
+                    on us to get the job done – regardless of how large or complex the task. </p>
+            </div>
+            <div class="members-wrapper row">
+                <div class="item col-md-6 col-12">
+                    <div class="item-inner">
+                        <div class="profile mb-2">
+                            <img class="profile-image" src="assets/images/christine.png" alt="Christine Mallick"/>
+                        </div>
+                        <div class="member-content">
+                            <h3 class="member-name">Christine Mallick</h3>
+                            <div class="member-title">Chief Executive Officer</div>
+                            <ul class="social list-inline">
+                                <li class="list-inline-item"><a
+                                        href="https://linkedin.com/in/christine-mallick-272b9744"
+                                        target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                            <div class="member-desc">
+                                <p>
+                                    Christine is the founder, owner, and CEO of AIDELA, Inc., a principal engineer,
+                                    system
+                                    architect, and solution strategist. She has over 20 years of experience in
+                                    Cloud Architecture, Data Transformation and Curation, Data Management, Program and
+                                    Project Management, and Information Security.
+                                </p>
+                                <p>
+                                    Ms. Mallick takes pride in cultivating diverse, multidisciplinary teams focused on
+                                    innovation,
+                                    efficiency and simplicity. Ms. Mallick graduated from the University of Maryland,
+                                    Baltimore County with a Bachelor's degree in Information Systems Management. She
+                                    received her
+                                    Masters in Information and Telecommunication Systems concentrating in Information
+                                    Security from Johns Hopkins University.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-md-6 col-12">
+                    <div class="item-inner">
+                        <div class="profile mb-2">
+                            <img class="profile-image" src="assets/images/rich.png" alt="Rich Giomundo"/>
+                        </div>
+                        <div class="member-content">
+                            <h3 class="member-name">Rich Giomundo</h3>
+                            <div class="member-title">Chief Technology Officer</div>
+                            <ul class="social list-inline">
+                                <!--                            <li class="list-inline-item"><a class="twitter" href="http://twitter.com/richgiomundo"-->
+                                <!--                                                            target="_blank"><i class="fab fa-twitter"></i></a></li>-->
+                                <li class="list-inline-item"><a href="https://linkedin.com/in/richardgiomundo"
+                                                                target="_blank"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                                <!--                            <li class="list-inline-item"><a class="github" href="https://github.com/richgiomundo"-->
+                                <!--                                                            target="_blank"><i class="fab fa-github"></i></a></li>-->
+                            </ul>
+                            <div class="member-desc">
+                                <p>
+                                    Richard Giomundo is co-founder and partner of AIDELA, Inc. Mr. Giomundo has broad
+                                    technical knowledge and over 20 years of experience in Software Architecture Design,
+                                    Enterprise Application Development and Technical Leadership.
+                                </p>
+                                <p>
+                                    Mr. Giomundo graduated with a Bachelor's degree in Computer Science and Mathematics
+                                    from the
+                                    University at Buffalo; he went on to receive a Masters in Computer Science and
+                                    Computer
+                                    Security.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer text-center" id="contact">
+        <div class="container">
+            <ul class="technologies list-inline">
+                <li class="list-inline-item">
+                    <a class="fa-icon-med" href="mailto:info@aidela.io" title="Drop us an email"><i
+                            class="fa fa-envelope"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="fa-icon-med" href="https://www.linkedin.com/company/aidelaworks" target="_blank"
+                       title="Find us on LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="twitter fa-icon-med" href="https://www.twitter.com/aidelaworks" target="_blank"
+                       title="Find us on Twitter"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="github fa-icon-med" href="https://www.facebook.com/aidelaworks" target="_blank"
+                       title="Find us on Facebook"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="github fa-icon-med" href="tel:443-574-5273" target="_blank" title="Give us a call"><i
+                            class="fa fa-mobile"></i></a>
+                </li>
+            </ul>
+            <div style="padding-bottom: 50px;">
+                <img src="assets/images/wbe.png" alt="WBENC"/>
+                <img src="assets/images/wosb.png" alt="SBA WOSB Certified"/>
+            </div>
+            <div>
+                <small>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">NAICS CODES:</li>
+                        <li class="list-inline-item" title="Custom Computer Programming Services">541511</li>
+                        <li class="list-inline-item" title="Computer Systems Design Services">541512</li>
+                        <li class="list-inline-item" title="Engineering Services">541330</li>
+                        <li class="list-inline-item" title="Other Computer Related Services">541519</li>
+                        <li class="list-inline-item" title="Admin. Management Gen. Management Consulting">541611</li>
+                        <li class="list-inline-item"
+                            title="Research and Development in the Physical, Engineering, and Life Sciences">541715
+                        </li>
+                        <li class="list-inline-item"
+                            title="Research and Development in the Social Sciences and Humanities">
+                            541720
+                        </li>
+                        <li class="list-inline-item" title="Professional and Management Development Training">611430
+                        </li>
+                    </ul>
+                </small>
+            </div>
+            <small class="copyright">© 2022 AIDELA, Inc. All Rights Reserved.</small>
+        </div>
+    </footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/90c3a57da5.js" crossorigin="anonymous"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-234632068-1">
 </script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'UA-234632068-1');

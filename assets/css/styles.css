@@ -346,6 +346,10 @@ a:focus {
   margin-right: 0;
 }
 
+.carousel-item {
+  background: #0C91F0;
+}
+
 .testimonials {
   background: #0C91F0;
 }
