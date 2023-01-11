@@ -301,8 +301,7 @@ a:focus {
   color: #ffffff;
   font-size: 16px;
   max-width: 760px;
-  margin: 0 auto;
-  margin-bottom: 60px;
+  margin: 0 auto 60px;
 }
 
 .about-section .items-wrapper {
@@ -326,8 +325,7 @@ a:focus {
   color: #0C91F0;
   font-size: 18px;
   font-weight: bold;
-  margin: 0;
-  margin-bottom: 15px;
+  margin: 0 0 15px;
 }
 
 .about-section .items-wrapper .item-desc {
@@ -417,8 +415,7 @@ a:focus {
 }
 
 .testimonials-section .section-title {
-  margin: 0;
-  margin-bottom: 30px;
+  margin: 0 0 30px;
   font-size: 36px;
   font-weight: 300;
   color: #ffffff;
@@ -512,8 +509,7 @@ a:focus {
 }
 
 .team-section .section-title {
-  margin: 0;
-  margin-bottom: 15px;
+  margin: 0 0 15px;
   font-size: 36px;
   font-weight: 300;
 }
@@ -522,13 +518,11 @@ a:focus {
   color: #ffffff;
   font-size: 16px;
   max-width: 760px;
-  margin: 0 auto;
-  margin-bottom: 60px;
+  margin: 0 auto 60px;
 }
 
 .team-section .story {
-  margin: 0 auto;
-  margin-bottom: 60px;
+  margin: 0 auto 60px;
   max-width: 760px;
 }
 
@@ -631,11 +625,11 @@ a:focus {
   background: #373737;
 }
 
-.team-section .social a.dribbble {
+.team-section .social a.dribble {
   background: #EC4D8B;
 }
 
-.team-section .social a.dribbble:hover {
+.team-section .social a.dribble:hover {
   background: #ea367c;
 }
 
@@ -659,20 +653,17 @@ a:focus {
 }
 
 .contact-section .section-title {
-  margin: 0;
-  margin-bottom: 15px;
   font-size: 36px;
   font-weight: 300;
-  margin-bottom: 30px;
+  margin: 0 0 30px;
 }
 
 .contact-content {
   max-width: 600px;
-  margin: 0 auto;
-  margin-bottom: 60px;
+  margin: 0 auto 60px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .navbar-collapse {
     border-top: none;
     -webkit-box-shadow: none;
